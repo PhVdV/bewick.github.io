@@ -79,20 +79,7 @@ layerSwitcher.hidePanel = function() {};
 layerSwitcher.showPanel();
 
 
-    var searchLayer = new SearchLayer({
-      layer: lyr_Beewick01092020maintenant_1,
-      colName: 'device_id',
-      zoom: 10,
-      collapsed: true,
-      map: map
-    });
-
-    map.addControl(searchLayer);
-    document.getElementsByClassName('search-layer')[0]
-    .getElementsByTagName('button')[0].className +=
-    ' fa fa-binoculars';
-    
-map.getView().fit([-2071372.537932, 5564739.995740, 10804771.634966, 12847115.060008], map.getSize());
+map.getView().fit([-1206147.312494, 6402796.689734, 7993241.896970, 11605705.393297], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
